@@ -58,3 +58,60 @@ width 900px gave my menu 900px horizontal spread
 .header-link-three {
     font-size: 15px;
 }
+
+.header-container {
+    color: #fff;
+    background-color: #1F2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+}
+
+.header-text-section {
+    max-width: 400px;
+    flex-direction: column;
+
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.signup-text {
+    font-size: 14px;
+}
+
+.signup-button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2d74cf;
+}
+
+.header-image {
+    margin-left: auto;
+    
+}
+
+/* 
+dark backgroudn color
+#1F2937
+Hero main text
+48px extra-bold #F9FAF8
+Hero secodnary text
+18px #E5E7EB
+Header Logo TExt
+24px #F9FAF8
+*/
