@@ -1,0 +1,60 @@
+/* 
+dark backgroudn color
+#1F2937
+Hero main text
+48px extra-bold #F9FAF8
+Hero secodnary text
+18px #E5E7EB
+Header Logo TExt
+24px #F9FAF8
+*/
+
+/*universal font fall back 0 margin to rid of auto  margin*/
+* {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* padding gives my menu bar some cushion  */
+.menu-container {
+    color: #fff;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* 
+border: 1px solid #fff;
+border shows how much space/pixels has been allocated to spacing of items
+width 900px gave my menu 900px horizontal spread 
+*/
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-logo {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-link-one {
+    margin-left: auto;
+}
+
+.header-link-two,
+.header-link-three {
+    margin-left: 20px;
+}
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+    font-size: 15px;
+}
