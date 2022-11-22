@@ -68,18 +68,22 @@ width 900px gave my menu 900px horizontal spread
 }
 
 .header {
+        border: 1px solid #fff;
+
     width: 900px;
     height: 300px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content:flex-start;
+   
     
     
 }
 
 .header-text-section {
+    border: 1px solid #fff;
     max-width: 400px;
     flex-direction: column;
+   
 
 }
 
@@ -87,11 +91,13 @@ width 900px gave my menu 900px horizontal spread
     font-size: 20px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-top: 10%;
 
 }
 
 .signup-text {
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .signup-button {
@@ -107,7 +113,8 @@ width 900px gave my menu 900px horizontal spread
 
 .header-image {
     margin-left: auto;
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* 
