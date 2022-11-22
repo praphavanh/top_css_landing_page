@@ -62,9 +62,10 @@ width 900px gave my menu 900px horizontal spread
 .header-container {
     color: #fff;
     background-color: #1F2937;
-    padding: 50px 0;
+    padding: 50px 0 60px 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .header {
@@ -72,15 +73,11 @@ width 900px gave my menu 900px horizontal spread
     height: 300px;
     display: flex;
     justify-content:flex-start;
-   
-    
-    
 }
 
 .header-text-section {
     max-width: 400px;
     flex-direction: column;
-
 }
 
 .header-title {
@@ -88,7 +85,6 @@ width 900px gave my menu 900px horizontal spread
     font-weight: bolder;
     color: #F9FAF8;
     padding-top: 10%;
-
 }
 
 .signup-text {
@@ -113,6 +109,35 @@ width 900px gave my menu 900px horizontal spread
    
 }
 
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.photo-grid-header {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.photo-grid {
+    width: 900px;
+    height: 900px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+
+.photo-grid-item {
+    width: 300px;
+    margin: 30px;
+   
 /* 
 dark backgroudn color
 #1F2937
